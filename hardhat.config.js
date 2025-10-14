@@ -14,7 +14,7 @@ const networks = {
 
     // Sepolia
     sepolia: {
-      url: "https://sepolia.infura.io/v3/86e855d001ac4393a579b7b233080ad8",
+      url: "https://sepolia.infura.io/v3/${process.env.INFURA_PROJECT_ID}",
       accounts: process.env.DEVNET_PRIVATE_KEY
     ? [process.env.DEVNET_PRIVATE_KEY]
     : [],
