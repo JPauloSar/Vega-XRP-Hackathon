@@ -2,7 +2,7 @@
 
 import { getDefaultConfig } from "@rainbow-me/rainbowkit";
 import { hardhat, sepolia } from "wagmi/chains";
-import { xrplEvmDevnet } from "@/chains";
+import { xrplEvmTestnet } from "../../chains"; 
 
 const hardhatChain = {
   id: 31337,
